@@ -36,4 +36,5 @@ public class CompanyConverter {
 
         return dto.stream().map(x -> dtoToEntity(x)).collect(Collectors.toList());
     }
+
 }

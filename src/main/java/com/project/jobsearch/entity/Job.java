@@ -13,7 +13,6 @@ import java.util.List;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 public class Job {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
